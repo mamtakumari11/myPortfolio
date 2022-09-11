@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Century Gothic;
+}
+
+
+header{
+  background-image:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)),url(BYTE1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float:right;
+  margin-top: 15px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: bold;
+  color: 	#FFFAF0;
+  padding: 5px 20px;
+  border: 2px solid transparent;
+}
+ul li a:hover{
+  background-color: #FFFAF0;
+  color: black;
+  transition: 0.6s ease;
+}
+.logo img{
+  float:left;
+  width:100px;
+  height: 100px;
+}
+
+.main{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: white;
+
+
+}
+.title h1{
+  color: white;
+  font-size: 80px
+}
+.button1{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: white;
+  display: inline-block;
+  font-size: 20px
+}
+
+.button2{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: white;
+  display: inline-block;
+  font-size: 20px
+}
+a{
+  text-decoration: bold;
+  color: 	#FFFAF0;
+  padding: 5px 20px;
+  border: 2px solid ;
+}
+a:hover{
+  background-color: #FFFAF0;
+  color: black;
+  transition: 0.6s ease;
+}
